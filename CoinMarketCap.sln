@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coin.API", "Coin.API\Coin.API.csproj", "{B2E1C17D-5A34-42AA-950E-32AB4E9F0768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coin.APP", "Coin.APP\Coin.APP.csproj", "{1FE3F9DB-3524-4727-84F0-8DC4262D9170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coin.DATA", "Coin.DATA\Coin.DATA.csproj", "{E272E32B-67B7-4164-AC26-2DC92198B6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coin.HELPER", "Coin.HELPER\Coin.HELPER.csproj", "{1338331D-E302-4017-888F-5808F91D2250}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2E1C17D-5A34-42AA-950E-32AB4E9F0768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E1C17D-5A34-42AA-950E-32AB4E9F0768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E1C17D-5A34-42AA-950E-32AB4E9F0768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E1C17D-5A34-42AA-950E-32AB4E9F0768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE3F9DB-3524-4727-84F0-8DC4262D9170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE3F9DB-3524-4727-84F0-8DC4262D9170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE3F9DB-3524-4727-84F0-8DC4262D9170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE3F9DB-3524-4727-84F0-8DC4262D9170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E272E32B-67B7-4164-AC26-2DC92198B6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E272E32B-67B7-4164-AC26-2DC92198B6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E272E32B-67B7-4164-AC26-2DC92198B6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E272E32B-67B7-4164-AC26-2DC92198B6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1338331D-E302-4017-888F-5808F91D2250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1338331D-E302-4017-888F-5808F91D2250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1338331D-E302-4017-888F-5808F91D2250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1338331D-E302-4017-888F-5808F91D2250}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
